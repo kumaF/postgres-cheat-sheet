@@ -17,6 +17,7 @@ WHERE
 ### Examples
 
 1) `WHERE` clause with the equal `(=)` operator
+    
     ```
     SELECT first_name, last_name
 	FROM public.customer
@@ -24,6 +25,7 @@ WHERE
     ```
 
 2) `WHERE` clause with the `AND` operator
+   
     ```
     SELECT first_name, last_name
 	FROM public.customer
@@ -31,6 +33,7 @@ WHERE
     ```
 
 3) `WHERE` clause with the `OR` operator
+    
     ```
     SELECT first_name, last_name
 	FROM public.customer
@@ -38,20 +41,23 @@ WHERE
     ```
 
 4) `WHERE` clause with the `IN` operator
+5) 
     ```
     SELECT first_name, last_name
 	FROM public.customer
     WHERE first_name IN ('Ann', 'Anne', 'Annie');
     ```
 
-5) `WHERE` clause with the `LIKE` operator
+6) `WHERE` clause with the `LIKE` operator
+    
     ```
     SELECT first_name, last_name
 	FROM public.customer
     WHERE first_name LIKE 'Ann%';
     ```
 
-6) `WHERE` clause with the `BETWEEN` operator
+7) `WHERE` clause with the `BETWEEN` operator
+    
     ```
     SELECT first_name, LENGTH(first_name) AS name_length
 	FROM public.customer
@@ -59,7 +65,8 @@ WHERE
     ORDER BY name_length;
     ```
 
-7) `WHERE` clause with the not equal `(<>)`, `(!=)` operator
+8) `WHERE` clause with the not equal `(<>)`, `(!=)` operator
+    
     ```
     SELECT first_name, last_name
 	FROM public.customer

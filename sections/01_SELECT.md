@@ -15,21 +15,25 @@ FROM
 ### Examples
 
 1) `SELECT` one column from the table
-    ```
-    SELECT first_name
-    FROM public.customer;
-    ```
+   
+   ```
+   SELECT first_name
+   FROM public.customer;
+   ```
 2) `SELECT` multiple columns from the table
-    ```
-    SELECT first_name, last_name
-    FROM public.customer;
-    ```
+   
+   ```
+   SELECT first_name, last_name
+   FROM public.customer;
+   ```
 3) `SELECT` all columns from the table
+   
    ```
    SELECT *first_name*
    FROM public.customer;
    ```
 4) `SELECT` data with an expression
+   
    ```
     SELECT 5 * 3;
    ```
