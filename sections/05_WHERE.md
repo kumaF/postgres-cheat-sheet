@@ -1,4 +1,4 @@
-## PostgreSQL WHERE
+## PostgreSQL `WHERE`
 
 ### Overview 
 Learn how to use PostgreSQL `WHERE` clause to filter rows returned by a `SELECT` statement.
@@ -41,14 +41,14 @@ WHERE
     ```
 
 4) `WHERE` clause with the `IN` operator
-5) 
+
     ```
     SELECT first_name, last_name
 	FROM public.customer
     WHERE first_name IN ('Ann', 'Anne', 'Annie');
     ```
 
-6) `WHERE` clause with the `LIKE` operator
+5) `WHERE` clause with the `LIKE` operator
     
     ```
     SELECT first_name, last_name
@@ -56,7 +56,7 @@ WHERE
     WHERE first_name LIKE 'Ann%';
     ```
 
-7) `WHERE` clause with the `BETWEEN` operator
+6) `WHERE` clause with the `BETWEEN` operator
     
     ```
     SELECT first_name, LENGTH(first_name) AS name_length
@@ -65,7 +65,7 @@ WHERE
     ORDER BY name_length;
     ```
 
-8) `WHERE` clause with the not equal `(<>)`, `(!=)` operator
+7) `WHERE` clause with the not equal `(<>)`, `(!=)` operator
     
     ```
     SELECT first_name, last_name

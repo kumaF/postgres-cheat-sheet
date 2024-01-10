@@ -29,17 +29,20 @@ FROM
 ### Examples
 
 1) Assigning a column alias to a column
+    
     ```
     SELECT first_name, last_name as surname
     FROM public.customer;
     ```
 2) Assigning a column alias to an expression
+    
     ```
     SELECT first_name || ' ' || last_name as full_name
     FROM public.customer;
     ```
 3) Column aliases that contain spaces
-   ```
+    
+    ```
     SELECT first_name || ' ' || last_name as "Full Name"
     FROM public.customer;
     ```

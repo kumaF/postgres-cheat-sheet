@@ -1,4 +1,4 @@
-## PostgreSQL SELECT
+## PostgreSQL `SELECT`
 
 ### Overview 
 Learn how to use the basic PostgreSQL `SELECT` statement to query data from a table.

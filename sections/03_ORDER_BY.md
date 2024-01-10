@@ -1,4 +1,4 @@
-## PostgreSQL ORDER BY
+## PostgreSQL `ORDER BY`
 
 ### Overview 
 Learn how to sort the result set returned from the `SELECT` statement by using the PostgreSQL `ORDER BY` clause. 
@@ -19,18 +19,21 @@ ORDER BY
 ### Examples
 
 1) Sort rows by one column
+    
     ```
     SELECT first_name, last_name
     FROM public.customer
     ORDER BY first_name ASC;
     ```
 2) Sort rows by multiple columns
+    
     ```
     SELECT first_name, last_name
     FROM public.customer
     ORDER BY first_name ASC, last_name DESC;
     ```
 3) Sort rows with NULL values
+    
     ```
     SELECT first_name, last_name
     FROM public.customer
