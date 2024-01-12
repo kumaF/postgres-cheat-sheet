@@ -9,3 +9,5 @@
 7) [FETCH](sections/07_FETCH.md)
 8) [IN](sections/08_IN.md)
 9) [BETWEEN](sections/09_BETWEEN.md)
+10) [LIKE](sections/10_LIKE.md)
+11) [IS NULL](sections/11_ISNULL.md)
